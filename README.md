@@ -10,7 +10,7 @@
 
 Unlike conventional image classifiers, this system is architected with a focus on **clinical safety** by utilizing a deep-feature concatenation backbone to identify subtle mucosal pattern variations.
 
-The system bridges the **"Black-Box AI" gap** through **Grad-CAM++ explainability** and supports hospital-grade medical data workflows through a **DICOM-compliant backend**.
+The system bridges the **"Black-Box AI" gap** through **Grad-CAM++ explainability** 
 
 ---
 
@@ -106,23 +106,10 @@ This provides:
 
 Clinicians can verify whether the model focuses on relevant tissue morphology rather than imaging artifacts.
 
----
-
-## 3. Clinical Interoperability
-
-Developed a **DICOM-ready backend** using medical imaging standards.
-
-The system extracts:
-
-- Patient ID
-- Study metadata
-- Imaging information
-
-from `.dcm` files to maintain a reliable clinical audit trail.
 
 ---
 
-## 4. Real-Time Inference Performance
+## 3. Real-Time Inference Performance
 
 Optimized inference pipeline achieves:
 
@@ -185,7 +172,7 @@ Supporting hospital quality assurance and model auditing.
 
 ---
 
-# 👨‍🔬 Author
+#  Author
 
 **Priyanka K**
 

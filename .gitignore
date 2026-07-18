@@ -1,0 +1,24 @@
+# === Python System ===
+__pycache__/
+*.py[cod]
+
+# === Local Env ===
+venv/
+.env
+.vscode/
+
+# === MEDICAL PRIVACY ===
+data/
+models/*.pth
+models/*.benchmark.pth
+
+# === Results ===
+# Ignore all CSV logs
+results/metrics/*.csv
+
+# Ignore all heatmaps EXCEPT the 3 demo ones for README
+results/heatmaps/*
+!results/heatmaps/CDSS_dyed-lifted-polyps_20260718_172155.png
+!results/heatmaps/CDSS_esophagitis_20260718_172117.png
+!results/heatmaps/CDSS_ulcerative-colitis_20260718_171923.png
+!results/metrics/confusion_matrix_final.png
